@@ -311,6 +311,10 @@ button {
   font-size: 24px;
 }
 
+.skills {
+  margin-bottom: 240px;
+}
+
 .skills__title {
   margin-bottom: 56px;
   font-size: 40px;
@@ -385,6 +389,7 @@ button {
   flex-direction: column;
   align-items: center;
   width: 57%;
+  margin-bottom: 240px;
 }
 
 .contacts__title {
@@ -568,10 +573,13 @@ button {
   content: "";
   display: inline-block;
   width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #000000 0%, #7B7B7B 50%, #000000 100%);
 }
 
 .footer__title {
   font-size: 32px;
+  font-weight: 400;
 }
 
 .footer__text {
