@@ -1,3 +1,7 @@
+.wrapper {
+  display: hidden;
+}
+
 :root {
   --bg-color: #ffffff;
   --text-color: #000000;
@@ -33,6 +37,7 @@ button {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  overflow: hidden;
   padding: 10px 48px;
   align-items: center;
   box-shadow: 11px 24px 32px 0px rgba(0, 0, 0, 0.1);
@@ -110,6 +115,7 @@ button {
   display: none;
   width: 36px;
   height: 36px;
+  border-radius: 8px;
   background: rgb(0, 0, 0);
   z-index: 1000;
 }
@@ -169,10 +175,10 @@ button {
   padding: 48px 24px 24px;
   transition: 0.3s;
   width: 100%;
-  transform: translateX(100%);
+  transform: translateX(110%);
 }
 .header__nav-mob-list.active {
-  transform: translateX(0);
+  transform: translateX(10%);
 }
 
 .header__nav-mob-list-item {
@@ -204,6 +210,9 @@ button {
   .header__nav-menu {
     width: 65%;
   }
+  .header__nav-contacts {
+    width: 15%;
+  }
 }
 @media (max-width: 800px) {
   .header__nav-menu {
@@ -217,6 +226,9 @@ button {
   }
   .header__nav-mob-list {
     display: flex;
+  }
+  .header__nav-mob-button {
+    display: block;
   }
 }
 .white {
@@ -565,6 +577,71 @@ button {
   width: 100%;
 }
 
+@media (max-width: 800px) {
+  .white__title {
+    font-size: 32px;
+    margin-top: 80px;
+    margin-left: 32px;
+  }
+  .white {
+    justify-content: center;
+  }
+  .NinjaMail__box {
+    margin-top: 50px;
+  }
+  .product__box {
+    width: 80%;
+  }
+  .Xinder__box {
+    margin-top: 0px;
+  }
+  .intro {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .intro__left {
+    align-items: center;
+  }
+  .intro__title {
+    align-self: center;
+    text-align: center;
+  }
+  .intro__avatar {
+    align-self: center;
+  }
+  .intro__right {
+    width: 80%;
+  }
+  .intro__text {
+    text-align: center;
+  }
+  .skills__title {
+    text-align: center;
+  }
+  .skills__text {
+    text-align: center;
+    margin-left: 0;
+  }
+  .skills__title {
+    font-size: 32px;
+  }
+  .skills__text {
+    font-size: 24px;
+  }
+  .skills__boxes-item {
+    width: 40%;
+    margin-left: 7%;
+  }
+  .skills__boxes-item-text {
+    font-size: 24px;
+  }
+  .contacts__form-media {
+    width: 40%;
+  }
+  .contacts__form-box-media {
+    width: 40% !important;
+  }
+}
 .footer {
   max-width: 1280px;
   padding: 0 36px 0 52px;

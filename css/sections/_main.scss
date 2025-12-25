@@ -326,3 +326,68 @@ transition: 0.3s;
     font-size: 24px;
     width: 100%;
 }
+@media(max-width:800px){
+    .white__title{
+        font-size: 32px;
+        margin-top: 80px;
+        margin-left: 32px;
+    }
+    .white{
+        justify-content: center;
+    }
+    .NinjaMail__box{
+        margin-top: 50px;
+    }
+    .product__box{
+        width: 80%;
+    }
+    .Xinder__box{
+        margin-top: 0px;
+    }
+    .intro{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .intro__left{
+        align-items: center;
+    }
+    .intro__title{
+        align-self: center;
+        text-align: center;
+    }
+    .intro__avatar{
+        align-self: center;
+    }
+    .intro__right{
+        width: 80%;
+    }
+    .intro__text{
+        text-align: center;
+    }
+    .skills__title{
+        text-align: center;
+    }
+    .skills__text{
+        text-align: center;
+        margin-left: 0;
+    }
+    .skills__title{
+        font-size: 32px;
+    }
+    .skills__text{
+        font-size: 24px;
+    }
+    .skills__boxes-item{
+        width: 40%;
+        margin-left: 7%;
+    }
+    .skills__boxes-item-text{
+        font-size: 24px;
+    }
+    .contacts__form-media{
+        width: 40%;
+    }
+    .contacts__form-box-media{
+        width: 40% !important;
+    }
+}
